@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('https://www.theskimm.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6g4gfm8wk7b6%2F1WEREw2RrENRblOb8Ww9Mm%2F1587ea66d03060330d33f851e04e8842%2F22.09.19_Skimm_Tested__Fitbit_Luxe_Header.png&w=1200&q=100');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+.features {
+  background-color: #eee;
+  text-align: center;
+  padding: 50px;
+}
+
+.features h2 {
+  margin-top: 0;
+}
+
+.features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+.cta {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+  color: #fff;
+}
+
+.cta h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #900;
+}
